@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Untitled UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-left">
+        <img
+          src="images/Screenshot 2026-08-08 081134.png"
+          alt="Untitled UI Logo"
+          class="logo"
+        />
+        <nav class="nav-links">
+          <a href="#">Products</a>
+          <a href="#">Solutions</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+          <a href="#">Careers</a>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="btn-text">Contact sales</a>
+        <a href="#" class="btn-primary">Dashboard</a>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <div class="content-wrapper">
+        <section class="testimonial-card">
+          <div class="image-container">
+            <img
+              src="images/image.jpg"
+              alt="Summer Marshall - Product Manager"
+              class="profile-img"
+            />
+            <div class="testimonial-overlay">
+              <blockquote>
+                "Payments infrastructure can be complicated, but Untitled lets
+                us focus our developers on what really matters—our core
+                business. It's a relief to work with such experienced and pros."
+              </blockquote>
+              <div class="testimonial-footer">
+                <div class="user-info">
+                  <strong>Summer Marshall</strong>
+                  <span>Product Manager, Codecraft</span>
+                </div>
+                <div class="rating">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-container">
+          <h2>How can we help?</h2>
+          <p class="subtitle">
+            No matter your business size, needs, or payments infrastructure, our
+            expert team can help.
+          </p>
+
+          <form action="#" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First name *</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  placeholder="First name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last name *</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Work email *</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="you@company.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Work phone *</label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="+1 (555) 000-0000"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="company-size">Company size</label>
+              <select id="company-size">
+                <option>50-100 employees</option>
+                <option>10-49 employees</option>
+                <option>100+ employees</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select id="country">
+                <option>United States</option>
+                <option>United Kingdom</option>
+                <option>Canada</option>
+              </select>
+            </div>
+
+            <div class="form-group checkbox-section">
+              <label>What products are you looking for?</label>
+              <div class="checkbox-group">
+                <label
+                  ><input type="checkbox" name="product" value="payments" />
+                  Online or in-person payments</label
+                >
+                <label
+                  ><input type="checkbox" name="product" value="tax" />
+                  Subscriptions, invoicing, or tax</label
+                >
+                <label
+                  ><input type="checkbox" name="product" value="accounts" />
+                  Identity verification or financial accounts</label
+                >
+                <label
+                  ><input type="checkbox" name="product" value="else" />
+                  Something else</label
+                >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Anything else?</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Tell us more about your project, needs, and timeline..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Contact us</button>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
